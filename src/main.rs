@@ -3,6 +3,6 @@ fn main() {
 }
 
 // adding multiple parameters
-fn print_labeled_measurement(value: 5, unit_label: char) {
+fn print_labeled_measurement(value: i32, unit_label: char) {
     println!("The measurement is: {}{}", value, unit_label);
 }
